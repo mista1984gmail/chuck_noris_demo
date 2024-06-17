@@ -19,7 +19,7 @@ public class ChuckNorisServiceImpl implements ChuckNorisService {
 
     public JokeDto getJoke() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-        Joke mainJoke = new Joke( "A man woke in Intensive Care with severe injuries and no memory of what happened. An investigation determined he was hit by either a freight train or by Chuck Norris.", LocalDateTime.now());
+        Joke mainJoke = new Joke( "Sticks and stones MAY break your bones, but with Chuck Norris it's a sure thing.", LocalDateTime.now());
         JSONObject object = null;
         JokeDto jokeDto;
         try {
